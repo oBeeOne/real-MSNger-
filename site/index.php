@@ -16,7 +16,7 @@ set_include_path(get_include_path().":".BASE_PATH."include:".BASE_PATH."conf:".B
 require_once('autoload.php');
 
 // Définitions des fichiers nécessaires (sans extension)
-$files = array("db", "session", "auth", "chat", "front");
+$files = array("db", "session", "auth", "chat");
 
 // Autoload des fichiers via l'autoloader
 autoload($files);
@@ -24,7 +24,7 @@ autoload($files);
 // Parse du fichier de config pour récupérer les identifiants de la BDD
 $parse = parse_ini_file('conf.ini', true);
 
-// Connexion à la BDD
+// Connexion à la BDD /!\ $db est un objet PDO et non une variable /!\
 $db = db_connect($parse);
 
 
