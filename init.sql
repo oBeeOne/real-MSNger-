@@ -43,7 +43,10 @@ FOR EACH ROW
 DELIMITER ;
 
 
-
-
+CREATE IF NOT EXISTS USER 'realmsnger'@'localhost' IDENTIFIED BY 'R3VLmud3l';
+GRANT ALL PRIVILEGES ON realmsnger.users TO 'realmsnger'@'localhost';
+GRANT INSERT ON realmsnger.buffer TO 'realmsnger'@'localhost';
+GRANT SELECT ON realmsnger.live_feed TO 'realmsnger'@'localhost';
+FLUSH PRIVILEGES;
 
 
