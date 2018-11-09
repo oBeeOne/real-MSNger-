@@ -10,40 +10,11 @@ Purpose: just **messing around**, just for fun with my students
 # Contributors: 
 David Zarebski (aka mad data scientist)
 
-1 - Anas MAADOUR [Linkedin](https://www.linkedin.com/in/anas-maadour/)
-  
-* Dorian Betten
-
 * Anas MAADOUR [Linkedin](https://www.linkedin.com/in/anas-maadour/)
+* Dorian Betten
 * apuNahasa (sabrina)
 * Chazot Sarah
 * Dos Santos Christopher
 * Daniel
 * Delcambre Florian.
 * ObeeOne : MayThe4thBWithU
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-4 - Chazot Sarah
-=======
-Daniel
->>>>>>> 97d094cdaa9747a8e5fb1c32ef80fa2a8c0c94a4
-=======
-Daniel
->>>>>>> 97d094cdaa9747a8e5fb1c32ef80fa2a8c0c94a4
-=======
-2 - Delcambre Florian.
-  -Cacahuète
->>>>>>> 871c4d426df02cc5884663838d2c96a1dbbeead7
-<<<<<<< HEAD
-hey!
-=======
-<<<<<<< HEAD
->>>>>>> 1b66fd01ad2af1d3dc48ffabdeffc13e926b49ce
-=======
->>>>>>> 97d094cdaa9747a8e5fb1c32ef80fa2a8c0c94a4
->>>>>>> caaf781de368b66a56bdaab3dfeffc1892ad7522
->>>>>>> 8bb0a85fc69900ca2d314ce8f485ac2050c308d6
-=======
->>>>>>> 67848d2d85b77bc44afdeeef207821de0eeeee30
