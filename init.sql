@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS realmsnger;
 CREATE DATABASE realmsnger;
 USE realmsnger;
 
