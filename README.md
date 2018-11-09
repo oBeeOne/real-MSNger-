@@ -4,22 +4,25 @@ a stupid clone of MSN
 
 Purpose: just **messing around**, just for fun with my students
 
-<<<<<<< HEAD
-Dos Santos Christopher
-
 =======
 
 
 # Contributors: 
 David Zarebski (aka mad data scientist)
 
-1 - Anas MAADOUR
-  - [Linkedin](https://www.linkedin.com/in/anas-maadour/)
-<<<<<<< HEAD
- 5 -apuNahasa (sabrina)
-=======
-<<<<<<< HEAD
+1 - Anas MAADOUR [Linkedin](https://www.linkedin.com/in/anas-maadour/)
+  
+* Dorian Betten
 
+* Anas MAADOUR [Linkedin](https://www.linkedin.com/in/anas-maadour/)
+* apuNahasa (sabrina)
+* Chazot Sarah
+* Dos Santos Christopher
+* Daniel
+* Delcambre Florian.
+* ObeeOne : MayThe4thBWithU
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 4 - Chazot Sarah
@@ -42,3 +45,5 @@ hey!
 >>>>>>> 97d094cdaa9747a8e5fb1c32ef80fa2a8c0c94a4
 >>>>>>> caaf781de368b66a56bdaab3dfeffc1892ad7522
 >>>>>>> 8bb0a85fc69900ca2d314ce8f485ac2050c308d6
+=======
+>>>>>>> 67848d2d85b77bc44afdeeef207821de0eeeee30
