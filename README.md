@@ -18,4 +18,3 @@ David Zarebski (aka mad data scientist)
 * Daniel
 * Delcambre Florian.
 * ObeeOne : MayThe4thBWithU
-* Chazot Sarah
