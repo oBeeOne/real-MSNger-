@@ -4,6 +4,10 @@ a stupid clone of MSN
 
 Purpose: just **messing around**, just for fun with my students
 
+<<<<<<< HEAD
+Dos Santos Christopher
+
+=======
 
 
 # Contributors: 
