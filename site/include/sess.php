@@ -12,7 +12,7 @@
   function sess_securite(){
       if(isset($_SESSION)){
           $sessid = session_id().microtime().rand(0,999999999);
-          $sessid = hash('sha-256', $sessid);
+          $sessid = hash('sha256', $sessid, FALSE);
           if(!isset($_COOKIE['g_ta'])){
               setcookie('g_ta', $sessid, time()+300);
           }
