@@ -5,17 +5,41 @@
  * 
  */
 
- $sess_timeout = 300;
+ /**
+  * Fonctions de sécurisation à appeler dans les autres fonctions de session
+  *
+  */
+  function sess_securite(){
+      if(isset($_SESSION)){
+          $sessid = session_id().microtime().rand(0,999999999);
+          $sessid = hash('sha-256', $sessid);
+          if(!isset($_COOKIE['g_ta'])){
+              setcookie('g_ta', $sessid, time()+300);
+          }
+          else{
+              $_COOKIE['g_ta'] = $sessid;
+          }
+          $_SESSION['g_ta'] = $sessid;
+      }
+  }
+
+  function sess_verif_securite(){
+      if(isset($_SESSION)){
+          if(isset($_COOKIE['g_ta']) == isset($_SESSION['g_ta'])){
+              sess_securite();
+          }
+          else{
+              sess_fin();
+          }
+      }
+  }
 
  /**
   * Démarrage de la session
   */
   function sess_demarrer(){
       session_start();
-      $sessid = session_id().microtime().rand(0,999999999);
-      $sessid = hash('sha-256', $sessid);
-      setcookie('g_ta', $sessid, time()+(60*5));
-      $_SESSION['g_ta'] = $sessid;
+      sess_securite();
 
       return true;
   }
@@ -32,12 +56,11 @@
            $duree = time()-$starttime;
 
            if($duree > $temps_limite){
-               session_unset();
-               session_destroy();
-               header('location:index.php');
+               session_fin();
            }
            else{
                $_SESSION['starttime'] = time();
+               sess_securite();
            }
        }
        else{

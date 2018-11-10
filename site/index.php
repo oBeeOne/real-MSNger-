@@ -16,7 +16,7 @@ set_include_path(get_include_path().":".BASE_PATH."include:".BASE_PATH."conf:".B
 require_once('autoload.php');
 
 // Définitions des fichiers nécessaires (sans extension)
-$files = array("db", "session", "auth", "chat");
+$files = array("db", "sess", "auth", "chat");
 
 // Autoload des fichiers via l'autoloader
 autoload($files);
@@ -27,6 +27,8 @@ $parse = parse_ini_file('conf.ini', true);
 // Connexion à la BDD /!\ $db est un objet PDO et non une variable /!\
 $db = db_connect($parse);
 
+// Vérification de l'existence de la session, sinon on la démarre
+$session = isset($_SESSION)? sess_timeout():sess_demarrer();
 
 ?>
 
