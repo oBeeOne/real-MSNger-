@@ -78,6 +78,21 @@
         header('location:index.php');
     }
 
+    /**
+     * Enregistrement de variables de session
+     * 
+     * @param type array paire (nom=>valeur)
+     */
+
+     function sess_ajouter_vars($vars){
+         if(isset($vars)){
+             foreach($vars as $key=>$value){
+                 $_SESSION[$key] = $value;
+             }
+         }
+         
+     }
+
 
 
 ?>
